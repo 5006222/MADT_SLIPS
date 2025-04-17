@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deposit" />
+
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Withdraw"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Balance"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
