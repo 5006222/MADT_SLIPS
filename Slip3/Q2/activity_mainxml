@@ -1,1 +1,64 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNumber1"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNumber2"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/editTextNumber1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAdd"
+        android:text="ADD"
+        android:layout_below="@+id/editTextNumber2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSubtract"
+        android:text="Subtract"
+        android:layout_below="@+id/buttonAdd"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMultiply"
+        android:text="Multiply"
+        android:layout_below="@+id/buttonSubtract"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDivide"
+        android:text="Divide"
+        android:layout_below="@+id/buttonMultiply"/>
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_below="@+id/buttonDivide"/>
+
+
+</RelativeLayout>
