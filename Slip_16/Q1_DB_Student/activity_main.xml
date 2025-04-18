@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <EditText android:id="@+id/edtName"
+            android:hint="Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/edtSurname"
+            android:hint="Surname" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/edtClass"
+            android:hint="Class" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/edtMarks"
+            android:hint="Marks" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender"/>
+        <RadioGroup android:id="@+id/genderGroup" android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radioMale" android:text="Male" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/radioFemale" android:text="Female" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hobbies"/>
+        <CheckBox android:id="@+id/chkMusic" android:text="Music" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/chkSports" android:text="Sports" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/chkArt" android:text="Art" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnSubmit" android:text="Submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
