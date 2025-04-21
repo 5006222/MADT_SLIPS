@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- Input fields for Game details -->
+    <EditText
+        android:id="@+id/etGname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Game Name" />
+
+    <EditText
+        android:id="@+id/etType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Game Type" />
+
+    <EditText
+        android:id="@+id/etNoOfPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter No of Players"
+        android:inputType="number" />
+
+    <!-- Buttons for actions -->
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Record" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Badminton Players to 4"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display All Records"
+        android:layout_marginTop="10dp" />
+
+    <!-- TextView to display all records -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game records will appear here."
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
