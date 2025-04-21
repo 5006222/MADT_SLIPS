@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:padding="20dp">
+
+    <!-- Emp fields -->
+    <EditText android:id="@+id/empNo" android:hint="Emp No" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    <EditText android:id="@+id/empName" android:hint="Emp Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/address" android:hint="Address" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/phone" android:hint="Phone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/salary" android:hint="Salary" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal"/>
+
+    <!-- Dept fields -->
+    <EditText android:id="@+id/deptNo" android:hint="Dept No" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    <EditText android:id="@+id/deptName" android:hint="Dept Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/location" android:hint="Location" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Buttons -->
+    <Button android:id="@+id/btnInsertEmp" android:text="Insert Emp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnInsertDept" android:text="Insert Dept" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnDisplay" android:text="Display Data" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+
+    <!-- Display areas -->
+    <TextView android:id="@+id/empData" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    <TextView android:id="@+id/deptData" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+</LinearLayout>
