@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_option1"
+        android:title="Popup Option 1" />
+    <item
+        android:id="@+id/popup_option2"
+        android:title="Popup Option 2" />
+</menu>
